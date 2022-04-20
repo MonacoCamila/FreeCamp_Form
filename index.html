@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css\style.css">
+    
+    <title>Formulario Page</title>
+</head>
+<body>
+
+    <header>
+         Formulario Teste 
+    </header>
+
+    <main> 
+        <div class="superbox">
+            <h1 id="title">freeCodeCamp Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+            <form id="survey-form" action="" method="post">
+                <fieldset class="forms"> 
+                    <div>
+                        <label for="nome">Nome</label>
+                        <input type="text" name="Nome" id="name-label"placeholder="Nome">
+                    </div>
+
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="Email" id="email-label" placeholder="Email">
+                    </div>
+
+                    <div>
+                        <label for="idade">Idade</label>
+                        <input type="number" name="Idade" id="number-label" placeholder="Idade">
+                    </div>
+
+                    <div>
+                        <h4>Selecione seu nivel de conhecimento</h4>
+                        <select name="nivel" id="dropdown">
+                            <optgroup label=""> 
+                                <option value="none"> <span> Selecione </span></option>
+                                <option value="FrontEnd"> <span> FrontEnd </span></option>
+                                <option value="BackEnd">BackEnd</option>
+                                <option value="FullStack">FullStack</option>
+                            </optgroup>
+                        </select>
+                    </div>
+
+                    <div class="experiencia">
+                        <h4>Qual o seu tempo de experiencia?</h4>
+
+
+                        <div>
+                            <input type="radio" name="attribute" id="attribute" value="1ano">
+                            <label for="attribute">1 ano </label>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="attribute" id="attribute" value="1ano">
+                            <label for="attribute">2 a 5 anos </label>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="attribute" id="attribute" value="1ano">
+                            <label for="attribute">5 a 10 anos </label>
+                        </div>
+
+                    <div class="recomenda">
+                        <h4>Voce recomendaria a freeCodeCamp para alguem?</h4>
+                        <div>
+                            <label for="select">Com certeza</label>
+                            <input type="checkbox" name="attribute" id="attribute" value="attribute">
+                        </div>
+
+                        <div>
+                            <label for="select">Talvez</label>
+                            <input type="checkbox" name="attribute" id="attribute" value="attribute">
+                        </div>
+
+                        <div>
+                            <label for="select">Nao sei responder </label>
+                            <input type="checkbox" name="attribute" id="attribute" value="attribute">
+                        </div>
+                        
+                    </div>
+
+                    <div class="sugestao">
+                        <h4 for="sugestao">Alguma ideia ou sugestao?</h4>
+                        <textarea name="sobre" id="sobre"
+                            placeholder=""></textarea>
+                    </div>
+                    
+                </fieldset>
+
+                <div class="button">
+                    <input type="submit" id="submit" value="Enviar">
+                </div> 
+
+            </form>    
+
+        </div>
+    </main>
+    
+</body>
+</html>
